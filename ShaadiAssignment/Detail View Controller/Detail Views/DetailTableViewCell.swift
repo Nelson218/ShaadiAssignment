@@ -33,7 +33,7 @@ extension DetailTableViewCell: UIViewRepresentable {
 
     func makeUIView(context: Context) -> UIView {
         let detailTableViewCell = DetailTableViewCell.fromNib
-        detailTableViewCell.prepare(shaadiViewModel: DetailViewModel(title: "User Name", detail: "Nelson's \nuser name"))
+        detailTableViewCell.prepare(shaadiViewModel: DetailViewModel(constant: .userName, detail: "Nelson's \nuser name"))
         
         return detailTableViewCell
     }

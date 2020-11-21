@@ -43,17 +43,13 @@
 		1E60361F256917ED004136B1 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E60361E256917ED004136B1 /* DetailTableViewCell.xib */; };
 		1E60362525691877004136B1 /* StarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E60362425691877004136B1 /* StarTableViewCell.xib */; };
 		1E60362B2569189A004136B1 /* StarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60362A2569189A004136B1 /* StarTableViewCell.swift */; };
+		1E60363625691F49004136B1 /* ListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60363525691F49004136B1 /* ListViewModelTest.swift */; };
+		1E60364025692058004136B1 /* ConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60363F25692058004136B1 /* ConstantValues.swift */; };
+		1E60364F25692339004136B1 /* DetailModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60364E25692339004136B1 /* DetailModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1E550E6D2567CC6C008A98B9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E550E4E2567CC69008A98B9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E550E552567CC69008A98B9;
-			remoteInfo = ShaadiAssignment;
-		};
-		1E550E782567CC6C008A98B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E550E4E2567CC69008A98B9 /* Project object */;
 			proxyType = 1;
@@ -111,7 +107,6 @@
 		1E550E6C2567CC6C008A98B9 /* ShaadiAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaadiAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E550E702567CC6C008A98B9 /* ShaadiAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiAssignmentTests.swift; sourceTree = "<group>"; };
 		1E550E722567CC6C008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaadiAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShaadiLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E550E9F2567CD4F008A98B9 /* ShaadiLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaadiLib.h; sourceTree = "<group>"; };
 		1E550EA02567CD4F008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +135,9 @@
 		1E60361E256917ED004136B1 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 		1E60362425691877004136B1 /* StarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarTableViewCell.xib; sourceTree = "<group>"; };
 		1E60362A2569189A004136B1 /* StarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTableViewCell.swift; sourceTree = "<group>"; };
+		1E60363525691F49004136B1 /* ListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTest.swift; sourceTree = "<group>"; };
+		1E60363F25692058004136B1 /* ConstantValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValues.swift; sourceTree = "<group>"; };
+		1E60364E25692339004136B1 /* DetailModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,13 +150,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E550E692567CC6C008A98B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E550E742567CC6C008A98B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,7 +207,6 @@
 			children = (
 				1E550E562567CC69008A98B9 /* ShaadiAssignment.app */,
 				1E550E6C2567CC6C008A98B9 /* ShaadiAssignmentTests.xctest */,
-				1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */,
 				1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */,
 				1E550EA52567CD4F008A98B9 /* ShaadiLibTests.xctest */,
 			);
@@ -228,6 +218,7 @@
 			children = (
 				1E550E592567CC69008A98B9 /* AppDelegate.swift */,
 				1E550F1B2567D2AB008A98B9 /* BaseCoordinator.swift */,
+				1E60363F25692058004136B1 /* ConstantValues.swift */,
 				1E6035F325690160004136B1 /* Detail View Controller */,
 				1E550F102567D279008A98B9 /* List View Controller */,
 				1E550E5F2567CC69008A98B9 /* Main.storyboard */,
@@ -241,6 +232,7 @@
 		1E550E6F2567CC6C008A98B9 /* ShaadiAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E60363425691F3A004136B1 /* View Model Test */,
 				1E550E702567CC6C008A98B9 /* ShaadiAssignmentTests.swift */,
 				1E550E722567CC6C008A98B9 /* Info.plist */,
 			);
@@ -359,6 +351,15 @@
 			path = "Detail Views";
 			sourceTree = "<group>";
 		};
+		1E60363425691F3A004136B1 /* View Model Test */ = {
+			isa = PBXGroup;
+			children = (
+				1E60363525691F49004136B1 /* ListViewModelTest.swift */,
+				1E60364E25692339004136B1 /* DetailModelTest.swift */,
+			);
+			path = "View Model Test";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -409,24 +410,6 @@
 			productName = ShaadiAssignmentTests;
 			productReference = 1E550E6C2567CC6C008A98B9 /* ShaadiAssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1E550E762567CC6C008A98B9 /* ShaadiAssignmentUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E550E862567CC6C008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiAssignmentUITests" */;
-			buildPhases = (
-				1E550E732567CC6C008A98B9 /* Sources */,
-				1E550E742567CC6C008A98B9 /* Frameworks */,
-				1E550E752567CC6C008A98B9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E550E792567CC6C008A98B9 /* PBXTargetDependency */,
-			);
-			name = ShaadiAssignmentUITests;
-			productName = ShaadiAssignmentUITests;
-			productReference = 1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		1E550E9C2567CD4F008A98B9 /* ShaadiLib */ = {
 			isa = PBXNativeTarget;
@@ -481,10 +464,6 @@
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = 1E550E552567CC69008A98B9;
 					};
-					1E550E762567CC6C008A98B9 = {
-						CreatedOnToolsVersion = 12.1;
-						TestTargetID = 1E550E552567CC69008A98B9;
-					};
 					1E550E9C2567CD4F008A98B9 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -509,7 +488,6 @@
 			targets = (
 				1E550E552567CC69008A98B9 /* ShaadiAssignment */,
 				1E550E6B2567CC6C008A98B9 /* ShaadiAssignmentTests */,
-				1E550E762567CC6C008A98B9 /* ShaadiAssignmentUITests */,
 				1E550E9C2567CD4F008A98B9 /* ShaadiLib */,
 				1E550EA42567CD4F008A98B9 /* ShaadiLibTests */,
 			);
@@ -531,13 +509,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E550E6A2567CC6C008A98B9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E550E752567CC6C008A98B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,6 +541,7 @@
 				1E550E5E2567CC69008A98B9 /* ListViewController.swift in Sources */,
 				1E550E5A2567CC69008A98B9 /* AppDelegate.swift in Sources */,
 				1E6036022569042C004136B1 /* DetailViewModel.swift in Sources */,
+				1E60364025692058004136B1 /* ConstantValues.swift in Sources */,
 				1E550F122567D297008A98B9 /* ListCoordinator.swift in Sources */,
 				1E550F1C2567D2AB008A98B9 /* BaseCoordinator.swift in Sources */,
 				1E3F43B72568DD2400645A03 /* ListTableViewCell.swift in Sources */,
@@ -583,14 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E60363625691F49004136B1 /* ListViewModelTest.swift in Sources */,
 				1E550E712567CC6C008A98B9 /* ShaadiAssignmentTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E550E732567CC6C008A98B9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1E60364F25692339004136B1 /* DetailModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,11 +596,6 @@
 			isa = PBXTargetDependency;
 			target = 1E550E552567CC69008A98B9 /* ShaadiAssignment */;
 			targetProxy = 1E550E6D2567CC6C008A98B9 /* PBXContainerItemProxy */;
-		};
-		1E550E792567CC6C008A98B9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E550E552567CC69008A98B9 /* ShaadiAssignment */;
-			targetProxy = 1E550E782567CC6C008A98B9 /* PBXContainerItemProxy */;
 		};
 		1E550EA82567CD4F008A98B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -835,7 +797,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiAssignmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -856,7 +818,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiAssignmentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -867,44 +829,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShaadiAssignment.app/ShaadiAssignment";
-			};
-			name = Release;
-		};
-		1E550E872567CC6C008A98B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ShaadiAssignmentUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ShaadiAssignment;
-			};
-			name = Debug;
-		};
-		1E550E882567CC6C008A98B9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ShaadiAssignmentUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiAssignmentUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ShaadiAssignment;
 			};
 			name = Release;
 		};
@@ -970,6 +894,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -989,6 +914,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiLibTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1028,15 +954,6 @@
 			buildConfigurations = (
 				1E550E842567CC6C008A98B9 /* Debug */,
 				1E550E852567CC6C008A98B9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E550E862567CC6C008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiAssignmentUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E550E872567CC6C008A98B9 /* Debug */,
-				1E550E882567CC6C008A98B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

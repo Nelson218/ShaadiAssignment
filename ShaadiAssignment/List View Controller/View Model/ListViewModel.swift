@@ -9,24 +9,24 @@ import UIKit
 import ShaadiLib
 
 public struct ListViewModel: ViewModelProtocol {
-    internal private(set) var name: NSMutableAttributedString?
-    internal private(set) var phone: NSMutableAttributedString?
-    internal private(set) var website: NSMutableAttributedString?
-    internal private(set) var companyName: NSMutableAttributedString?
-    internal var onButtonClick: (() -> UIImage?)?
+    public private(set) var name: NSMutableAttributedString?
+    public private(set) var phone: NSMutableAttributedString?
+    public private(set) var website: NSMutableAttributedString?
+    public private(set) var companyName: NSMutableAttributedString?
+    public var onButtonClick: (() -> UIImage?)?
     public private(set) var user: User
 
     public init(user: User) {
         self.user = user
-        self.name = getAttributedString(forTitle: "Name: ", detail: user.name)
-        self.phone = getAttributedString(forTitle: "Call on: ", detail: user.phone)
-        self.website = getAttributedString(forTitle: "Visit us on: ", detail: user.website)
-        self.companyName = getAttributedString(forTitle: "Company Name: ", detail: user.company.name)
+        self.name = getAttributedString(forConstant: .name, detail: user.name)
+        self.phone = getAttributedString(forConstant: .phone, detail: user.phone)
+        self.website = getAttributedString(forConstant: .webSite, detail: user.website)
+        self.companyName = getAttributedString(forConstant: .company, detail: user.company.name)
         self.onButtonClick = onSelect
     }
     
-    private func getAttributedString(forTitle title: String, detail: String) -> NSMutableAttributedString {
-        let attributedString = NSMutableAttributedString(string: title, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: UIColor.black])
+    private func getAttributedString(forConstant constant: ConstantValue, detail: String) -> NSMutableAttributedString {
+        let attributedString = NSMutableAttributedString(string: constant.description, attributes: [.font: UIFont.systemFont(ofSize: 10), .foregroundColor: UIColor.black])
         
         let detailAttributedString = NSAttributedString(string: detail, attributes: [.font: UIFont.boldSystemFont(ofSize: 18), .foregroundColor: UIColor.darkGray])
         

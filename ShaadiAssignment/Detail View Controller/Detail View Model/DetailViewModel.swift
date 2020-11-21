@@ -10,12 +10,12 @@ import ShaadiLib
 
 extension User {
     func createViewModel() -> [ShaadiViewProtocol] {
-        [DetailViewModel(title: "Name: ", detail: name),
-         DetailViewModel(title: "UserName: ", detail: username),
-         DetailViewModel(title: "Call on: ", detail: phone),
-         DetailViewModel(title: "Visit us on: ", detail: website),
-         DetailViewModel(title: "Company Name: ", detail: company.name),
-         DetailViewModel(title: "Address: ", detail: fullAddress),
+        [DetailViewModel(constant: .name, detail: name),
+         DetailViewModel(constant: .userName, detail: username),
+         DetailViewModel(constant: .phone, detail: phone),
+         DetailViewModel(constant: .webSite, detail: website),
+         DetailViewModel(constant: .company, detail: company.name),
+         DetailViewModel(constant: .address, detail: fullAddress),
          StarViewModel(user: self)
         ]
     }
@@ -26,8 +26,13 @@ extension User {
 }
 
 public struct DetailViewModel: ShaadiViewProtocol {
-    internal private(set) var title: String
-    internal private(set) var detail: String?
+    public private(set) var title: String
+    public private(set) var detail: String?
+    
+    public init(constant: ConstantValue, detail: String) {
+        self.title = constant.description
+        self.detail = detail
+    }
     
     public var nibName: String {
         return "DetailTableViewCell"
