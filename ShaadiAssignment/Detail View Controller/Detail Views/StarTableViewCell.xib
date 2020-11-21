@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="starTableCellidentifier" id="l3W-lo-bzu" customClass="StarTableViewCell" customModule="ShaadiAssignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l3W-lo-bzu" id="XID-PC-j8j">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQt-5O-1dz">
+                        <rect key="frame" x="10" y="10" width="40" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="U6T-PB-eKO"/>
+                            <constraint firstAttribute="height" constant="38" id="xXB-sw-6A4"/>
+                        </constraints>
+                        <state key="normal" image="markedStar"/>
+                        <connections>
+                            <action selector="buttonClicked" destination="l3W-lo-bzu" eventType="touchUpInside" id="78V-fd-ISU"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gQt-5O-1dz" firstAttribute="leading" secondItem="XID-PC-j8j" secondAttribute="leading" constant="10" id="6Jz-8X-5Bx"/>
+                    <constraint firstItem="gQt-5O-1dz" firstAttribute="top" secondItem="XID-PC-j8j" secondAttribute="top" constant="10" id="IJ8-5n-uT8"/>
+                    <constraint firstAttribute="bottom" secondItem="gQt-5O-1dz" secondAttribute="bottom" constant="10" id="bab-3r-54p"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="starButton" destination="gQt-5O-1dz" id="YHc-Wb-ftL"/>
+            </connections>
+            <point key="canvasLocation" x="130" y="103"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="markedStar" width="512" height="487"/>
+    </resources>
+</document>

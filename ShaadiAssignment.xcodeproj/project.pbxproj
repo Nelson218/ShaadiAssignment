@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3F43A62568DC0000645A03 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F43A52568DC0000645A03 /* ListViewModel.swift */; };
+		1E3F43B72568DD2400645A03 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F43B62568DD2400645A03 /* ListTableViewCell.swift */; };
+		1E3F43C12568E4AA00645A03 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3F43C02568E4AA00645A03 /* ListTableViewCell.xib */; };
 		1E550E5A2567CC69008A98B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E592567CC69008A98B9 /* AppDelegate.swift */; };
-		1E550E5C2567CC69008A98B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E5B2567CC69008A98B9 /* SceneDelegate.swift */; };
-		1E550E5E2567CC69008A98B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E5D2567CC69008A98B9 /* ViewController.swift */; };
+		1E550E5E2567CC69008A98B9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E5D2567CC69008A98B9 /* ListViewController.swift */; };
 		1E550E612567CC69008A98B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E550E5F2567CC69008A98B9 /* Main.storyboard */; };
 		1E550E632567CC6B008A98B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E550E622567CC6B008A98B9 /* Assets.xcassets */; };
 		1E550E662567CC6B008A98B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E550E642567CC6B008A98B9 /* LaunchScreen.storyboard */; };
 		1E550E712567CC6C008A98B9 /* ShaadiAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E702567CC6C008A98B9 /* ShaadiAssignmentTests.swift */; };
-		1E550E7C2567CC6C008A98B9 /* ShaadiAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550E7B2567CC6C008A98B9 /* ShaadiAssignmentUITests.swift */; };
+		1E550EA62567CD4F008A98B9 /* ShaadiLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */; };
+		1E550EAD2567CD4F008A98B9 /* ShaadiLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EAC2567CD4F008A98B9 /* ShaadiLibTests.swift */; };
+		1E550EAF2567CD4F008A98B9 /* ShaadiLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E550E9F2567CD4F008A98B9 /* ShaadiLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E550EB22567CD4F008A98B9 /* ShaadiLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */; };
+		1E550EB32567CD4F008A98B9 /* ShaadiLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1E550EDC2567CD76008A98B9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC02567CD76008A98B9 /* Service.swift */; };
+		1E550EDD2567CD76008A98B9 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC12567CD76008A98B9 /* Resource.swift */; };
+		1E550EDE2567CD76008A98B9 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC32567CD76008A98B9 /* AppConfiguration.swift */; };
+		1E550EDF2567CD76008A98B9 /* HTTPStatusCode+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC42567CD76008A98B9 /* HTTPStatusCode+Helper.swift */; };
+		1E550EE02567CD76008A98B9 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC52567CD76008A98B9 /* HTTPStatusCode.swift */; };
+		1E550EE12567CD76008A98B9 /* ErrorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC62567CD76008A98B9 /* ErrorConfig.swift */; };
+		1E550EE22567CD76008A98B9 /* UIViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC82567CD76008A98B9 /* UIViewController+Helper.swift */; };
+		1E550EE32567CD76008A98B9 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550EC92567CD76008A98B9 /* UIView+Helper.swift */; };
+		1E550EE42567CD76008A98B9 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550ECA2567CD76008A98B9 /* Loadable.swift */; };
+		1E550F012567CE31008A98B9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550F002567CE31008A98B9 /* User.swift */; };
+		1E550F072567D102008A98B9 /* User+Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550F062567D102008A98B9 /* User+Resource.swift */; };
+		1E550F122567D297008A98B9 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550F112567D297008A98B9 /* ListCoordinator.swift */; };
+		1E550F1C2567D2AB008A98B9 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E550F1B2567D2AB008A98B9 /* BaseCoordinator.swift */; };
+		1E6035E42568EFCE004136B1 /* ShaadiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6035E32568EFCE004136B1 /* ShaadiTableViewController.swift */; };
+		1E6035EE2568F049004136B1 /* ShaadiTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6035ED2568F049004136B1 /* ShaadiTableViewProtocol.swift */; };
+		1E6035F525690170004136B1 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6035F425690170004136B1 /* DetailCoordinator.swift */; };
+		1E6035FB256901A1004136B1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6035FA256901A1004136B1 /* DetailViewController.swift */; };
+		1E6036022569042C004136B1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6036012569042C004136B1 /* DetailViewModel.swift */; };
+		1E6036152569176B004136B1 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6036142569176B004136B1 /* DetailTableViewCell.swift */; };
+		1E60361F256917ED004136B1 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E60361E256917ED004136B1 /* DetailTableViewCell.xib */; };
+		1E60362525691877004136B1 /* StarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E60362425691877004136B1 /* StarTableViewCell.xib */; };
+		1E60362B2569189A004136B1 /* StarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60362A2569189A004136B1 /* StarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +60,50 @@
 			remoteGlobalIDString = 1E550E552567CC69008A98B9;
 			remoteInfo = ShaadiAssignment;
 		};
+		1E550EA72567CD4F008A98B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E550E4E2567CC69008A98B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E550E9C2567CD4F008A98B9;
+			remoteInfo = ShaadiLib;
+		};
+		1E550EA92567CD4F008A98B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E550E4E2567CC69008A98B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E550E552567CC69008A98B9;
+			remoteInfo = ShaadiAssignment;
+		};
+		1E550EB02567CD4F008A98B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E550E4E2567CC69008A98B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E550E9C2567CD4F008A98B9;
+			remoteInfo = ShaadiLib;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1E550EB72567CD4F008A98B9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1E550EB32567CD4F008A98B9 /* ShaadiLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1E3F43A52568DC0000645A03 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		1E3F43B62568DD2400645A03 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		1E3F43C02568E4AA00645A03 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 		1E550E562567CC69008A98B9 /* ShaadiAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaadiAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E550E592567CC69008A98B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E550E5B2567CC69008A98B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E550E5D2567CC69008A98B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E550E5D2567CC69008A98B9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1E550E602567CC69008A98B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E550E622567CC6B008A98B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E550E652567CC6B008A98B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +112,34 @@
 		1E550E702567CC6C008A98B9 /* ShaadiAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiAssignmentTests.swift; sourceTree = "<group>"; };
 		1E550E722567CC6C008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaadiAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E550E7B2567CC6C008A98B9 /* ShaadiAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiAssignmentUITests.swift; sourceTree = "<group>"; };
-		1E550E7D2567CC6C008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShaadiLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E550E9F2567CD4F008A98B9 /* ShaadiLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaadiLib.h; sourceTree = "<group>"; };
+		1E550EA02567CD4F008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E550EA52567CD4F008A98B9 /* ShaadiLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaadiLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E550EAC2567CD4F008A98B9 /* ShaadiLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiLibTests.swift; sourceTree = "<group>"; };
+		1E550EAE2567CD4F008A98B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E550EC02567CD76008A98B9 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		1E550EC12567CD76008A98B9 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		1E550EC32567CD76008A98B9 /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		1E550EC42567CD76008A98B9 /* HTTPStatusCode+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPStatusCode+Helper.swift"; sourceTree = "<group>"; };
+		1E550EC52567CD76008A98B9 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		1E550EC62567CD76008A98B9 /* ErrorConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorConfig.swift; sourceTree = "<group>"; };
+		1E550EC82567CD76008A98B9 /* UIViewController+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helper.swift"; sourceTree = "<group>"; };
+		1E550EC92567CD76008A98B9 /* UIView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
+		1E550ECA2567CD76008A98B9 /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		1E550F002567CE31008A98B9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1E550F062567D102008A98B9 /* User+Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Resource.swift"; sourceTree = "<group>"; };
+		1E550F112567D297008A98B9 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		1E550F1B2567D2AB008A98B9 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		1E6035E32568EFCE004136B1 /* ShaadiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiTableViewController.swift; sourceTree = "<group>"; };
+		1E6035ED2568F049004136B1 /* ShaadiTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaadiTableViewProtocol.swift; sourceTree = "<group>"; };
+		1E6035F425690170004136B1 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		1E6035FA256901A1004136B1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1E6036012569042C004136B1 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		1E6036142569176B004136B1 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		1E60361E256917ED004136B1 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		1E60362425691877004136B1 /* StarTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarTableViewCell.xib; sourceTree = "<group>"; };
+		1E60362A2569189A004136B1 /* StarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E550EB22567CD4F008A98B9 /* ShaadiLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,15 +165,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E550E9A2567CD4F008A98B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E550EA22567CD4F008A98B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E550EA62567CD4F008A98B9 /* ShaadiLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E3F43A42568DBF400645A03 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E3F43A52568DC0000645A03 /* ListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		1E3F43B52568DD1400645A03 /* List Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E3F43B62568DD2400645A03 /* ListTableViewCell.swift */,
+				1E3F43C02568E4AA00645A03 /* ListTableViewCell.xib */,
+			);
+			path = "List Table View Cell";
+			sourceTree = "<group>";
+		};
 		1E550E4D2567CC69008A98B9 = {
 			isa = PBXGroup;
 			children = (
 				1E550E582567CC69008A98B9 /* ShaadiAssignment */,
 				1E550E6F2567CC6C008A98B9 /* ShaadiAssignmentTests */,
-				1E550E7A2567CC6C008A98B9 /* ShaadiAssignmentUITests */,
+				1E550E9E2567CD4F008A98B9 /* ShaadiLib */,
+				1E550EAB2567CD4F008A98B9 /* ShaadiLibTests */,
 				1E550E572567CC69008A98B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +217,8 @@
 				1E550E562567CC69008A98B9 /* ShaadiAssignment.app */,
 				1E550E6C2567CC6C008A98B9 /* ShaadiAssignmentTests.xctest */,
 				1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */,
+				1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */,
+				1E550EA52567CD4F008A98B9 /* ShaadiLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,8 +227,9 @@
 			isa = PBXGroup;
 			children = (
 				1E550E592567CC69008A98B9 /* AppDelegate.swift */,
-				1E550E5B2567CC69008A98B9 /* SceneDelegate.swift */,
-				1E550E5D2567CC69008A98B9 /* ViewController.swift */,
+				1E550F1B2567D2AB008A98B9 /* BaseCoordinator.swift */,
+				1E6035F325690160004136B1 /* Detail View Controller */,
+				1E550F102567D279008A98B9 /* List View Controller */,
 				1E550E5F2567CC69008A98B9 /* Main.storyboard */,
 				1E550E622567CC6B008A98B9 /* Assets.xcassets */,
 				1E550E642567CC6B008A98B9 /* LaunchScreen.storyboard */,
@@ -119,16 +247,130 @@
 			path = ShaadiAssignmentTests;
 			sourceTree = "<group>";
 		};
-		1E550E7A2567CC6C008A98B9 /* ShaadiAssignmentUITests */ = {
+		1E550E9E2567CD4F008A98B9 /* ShaadiLib */ = {
 			isa = PBXGroup;
 			children = (
-				1E550E7B2567CC6C008A98B9 /* ShaadiAssignmentUITests.swift */,
-				1E550E7D2567CC6C008A98B9 /* Info.plist */,
+				1E550E9F2567CD4F008A98B9 /* ShaadiLib.h */,
+				1E550EA02567CD4F008A98B9 /* Info.plist */,
+				1E6035E22568EFB0004136B1 /* Table View */,
+				1E550EC22567CD76008A98B9 /* Configuration Files */,
+				1E550ECB2567CD76008A98B9 /* Model */,
+				1E550EBF2567CD76008A98B9 /* Networking */,
+				1E550EC72567CD76008A98B9 /* UIKit + Helper */,
 			);
-			path = ShaadiAssignmentUITests;
+			path = ShaadiLib;
+			sourceTree = "<group>";
+		};
+		1E550EAB2567CD4F008A98B9 /* ShaadiLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E550EAC2567CD4F008A98B9 /* ShaadiLibTests.swift */,
+				1E550EAE2567CD4F008A98B9 /* Info.plist */,
+			);
+			path = ShaadiLibTests;
+			sourceTree = "<group>";
+		};
+		1E550EBF2567CD76008A98B9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1E550EC02567CD76008A98B9 /* Service.swift */,
+				1E550EC12567CD76008A98B9 /* Resource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1E550EC22567CD76008A98B9 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E550EC32567CD76008A98B9 /* AppConfiguration.swift */,
+				1E550EC42567CD76008A98B9 /* HTTPStatusCode+Helper.swift */,
+				1E550EC52567CD76008A98B9 /* HTTPStatusCode.swift */,
+				1E550EC62567CD76008A98B9 /* ErrorConfig.swift */,
+			);
+			path = "Configuration Files";
+			sourceTree = "<group>";
+		};
+		1E550EC72567CD76008A98B9 /* UIKit + Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1E550EC82567CD76008A98B9 /* UIViewController+Helper.swift */,
+				1E550EC92567CD76008A98B9 /* UIView+Helper.swift */,
+				1E550ECA2567CD76008A98B9 /* Loadable.swift */,
+			);
+			path = "UIKit + Helper";
+			sourceTree = "<group>";
+		};
+		1E550ECB2567CD76008A98B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E550F002567CE31008A98B9 /* User.swift */,
+				1E550F062567D102008A98B9 /* User+Resource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E550F102567D279008A98B9 /* List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E550E5D2567CC69008A98B9 /* ListViewController.swift */,
+				1E550F112567D297008A98B9 /* ListCoordinator.swift */,
+				1E3F43B52568DD1400645A03 /* List Table View Cell */,
+				1E3F43A42568DBF400645A03 /* View Model */,
+			);
+			path = "List View Controller";
+			sourceTree = "<group>";
+		};
+		1E6035E22568EFB0004136B1 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				1E6035E32568EFCE004136B1 /* ShaadiTableViewController.swift */,
+				1E6035ED2568F049004136B1 /* ShaadiTableViewProtocol.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
+		1E6035F325690160004136B1 /* Detail View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E6035F425690170004136B1 /* DetailCoordinator.swift */,
+				1E6035FA256901A1004136B1 /* DetailViewController.swift */,
+				1E60361325691757004136B1 /* Detail Views */,
+				1E6036002569041D004136B1 /* Detail View Model */,
+			);
+			path = "Detail View Controller";
+			sourceTree = "<group>";
+		};
+		1E6036002569041D004136B1 /* Detail View Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E6036012569042C004136B1 /* DetailViewModel.swift */,
+			);
+			path = "Detail View Model";
+			sourceTree = "<group>";
+		};
+		1E60361325691757004136B1 /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6036142569176B004136B1 /* DetailTableViewCell.swift */,
+				1E60361E256917ED004136B1 /* DetailTableViewCell.xib */,
+				1E60362A2569189A004136B1 /* StarTableViewCell.swift */,
+				1E60362425691877004136B1 /* StarTableViewCell.xib */,
+			);
+			path = "Detail Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E550E982567CD4F008A98B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E550EAF2567CD4F008A98B9 /* ShaadiLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1E550E552567CC69008A98B9 /* ShaadiAssignment */ = {
@@ -138,10 +380,12 @@
 				1E550E522567CC69008A98B9 /* Sources */,
 				1E550E532567CC69008A98B9 /* Frameworks */,
 				1E550E542567CC69008A98B9 /* Resources */,
+				1E550EB72567CD4F008A98B9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1E550EB12567CD4F008A98B9 /* PBXTargetDependency */,
 			);
 			name = ShaadiAssignment;
 			productName = ShaadiAssignment;
@@ -184,6 +428,43 @@
 			productReference = 1E550E772567CC6C008A98B9 /* ShaadiAssignmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1E550E9C2567CD4F008A98B9 /* ShaadiLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E550EB42567CD4F008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiLib" */;
+			buildPhases = (
+				1E550E982567CD4F008A98B9 /* Headers */,
+				1E550E992567CD4F008A98B9 /* Sources */,
+				1E550E9A2567CD4F008A98B9 /* Frameworks */,
+				1E550E9B2567CD4F008A98B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShaadiLib;
+			productName = ShaadiLib;
+			productReference = 1E550E9D2567CD4F008A98B9 /* ShaadiLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E550EA42567CD4F008A98B9 /* ShaadiLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E550EB82567CD4F008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiLibTests" */;
+			buildPhases = (
+				1E550EA12567CD4F008A98B9 /* Sources */,
+				1E550EA22567CD4F008A98B9 /* Frameworks */,
+				1E550EA32567CD4F008A98B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E550EA82567CD4F008A98B9 /* PBXTargetDependency */,
+				1E550EAA2567CD4F008A98B9 /* PBXTargetDependency */,
+			);
+			name = ShaadiLibTests;
+			productName = ShaadiLibTests;
+			productReference = 1E550EA52567CD4F008A98B9 /* ShaadiLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +482,13 @@
 						TestTargetID = 1E550E552567CC69008A98B9;
 					};
 					1E550E762567CC6C008A98B9 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 1E550E552567CC69008A98B9;
+					};
+					1E550E9C2567CD4F008A98B9 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					1E550EA42567CD4F008A98B9 = {
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = 1E550E552567CC69008A98B9;
 					};
@@ -222,6 +510,8 @@
 				1E550E552567CC69008A98B9 /* ShaadiAssignment */,
 				1E550E6B2567CC6C008A98B9 /* ShaadiAssignmentTests */,
 				1E550E762567CC6C008A98B9 /* ShaadiAssignmentUITests */,
+				1E550E9C2567CD4F008A98B9 /* ShaadiLib */,
+				1E550EA42567CD4F008A98B9 /* ShaadiLibTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,8 +522,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E550E662567CC6B008A98B9 /* LaunchScreen.storyboard in Resources */,
+				1E60361F256917ED004136B1 /* DetailTableViewCell.xib in Resources */,
+				1E3F43C12568E4AA00645A03 /* ListTableViewCell.xib in Resources */,
 				1E550E632567CC6B008A98B9 /* Assets.xcassets in Resources */,
 				1E550E612567CC69008A98B9 /* Main.storyboard in Resources */,
+				1E60362525691877004136B1 /* StarTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +544,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1E550E9B2567CD4F008A98B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E550EA32567CD4F008A98B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +565,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E550E5E2567CC69008A98B9 /* ViewController.swift in Sources */,
+				1E6035F525690170004136B1 /* DetailCoordinator.swift in Sources */,
+				1E3F43A62568DC0000645A03 /* ListViewModel.swift in Sources */,
+				1E550E5E2567CC69008A98B9 /* ListViewController.swift in Sources */,
 				1E550E5A2567CC69008A98B9 /* AppDelegate.swift in Sources */,
-				1E550E5C2567CC69008A98B9 /* SceneDelegate.swift in Sources */,
+				1E6036022569042C004136B1 /* DetailViewModel.swift in Sources */,
+				1E550F122567D297008A98B9 /* ListCoordinator.swift in Sources */,
+				1E550F1C2567D2AB008A98B9 /* BaseCoordinator.swift in Sources */,
+				1E3F43B72568DD2400645A03 /* ListTableViewCell.swift in Sources */,
+				1E60362B2569189A004136B1 /* StarTableViewCell.swift in Sources */,
+				1E6036152569176B004136B1 /* DetailTableViewCell.swift in Sources */,
+				1E6035FB256901A1004136B1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +591,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E550E7C2567CC6C008A98B9 /* ShaadiAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E550E992567CD4F008A98B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E550EE02567CD76008A98B9 /* HTTPStatusCode.swift in Sources */,
+				1E550EDF2567CD76008A98B9 /* HTTPStatusCode+Helper.swift in Sources */,
+				1E550EE42567CD76008A98B9 /* Loadable.swift in Sources */,
+				1E550EE32567CD76008A98B9 /* UIView+Helper.swift in Sources */,
+				1E550F072567D102008A98B9 /* User+Resource.swift in Sources */,
+				1E6035EE2568F049004136B1 /* ShaadiTableViewProtocol.swift in Sources */,
+				1E550EE12567CD76008A98B9 /* ErrorConfig.swift in Sources */,
+				1E550EDE2567CD76008A98B9 /* AppConfiguration.swift in Sources */,
+				1E550EE22567CD76008A98B9 /* UIViewController+Helper.swift in Sources */,
+				1E550EDC2567CD76008A98B9 /* Service.swift in Sources */,
+				1E6035E42568EFCE004136B1 /* ShaadiTableViewController.swift in Sources */,
+				1E550F012567CE31008A98B9 /* User.swift in Sources */,
+				1E550EDD2567CD76008A98B9 /* Resource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E550EA12567CD4F008A98B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E550EAD2567CD4F008A98B9 /* ShaadiLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +634,21 @@
 			isa = PBXTargetDependency;
 			target = 1E550E552567CC69008A98B9 /* ShaadiAssignment */;
 			targetProxy = 1E550E782567CC6C008A98B9 /* PBXContainerItemProxy */;
+		};
+		1E550EA82567CD4F008A98B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E550E9C2567CD4F008A98B9 /* ShaadiLib */;
+			targetProxy = 1E550EA72567CD4F008A98B9 /* PBXContainerItemProxy */;
+		};
+		1E550EAA2567CD4F008A98B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E550E552567CC69008A98B9 /* ShaadiAssignment */;
+			targetProxy = 1E550EA92567CD4F008A98B9 /* PBXContainerItemProxy */;
+		};
+		1E550EB12567CD4F008A98B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E550E9C2567CD4F008A98B9 /* ShaadiLib */;
+			targetProxy = 1E550EB02567CD4F008A98B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,10 +791,12 @@
 		1E550E812567CC6C008A98B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,17 +804,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1E550E822567CC6C008A98B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShaadiAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +824,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -547,6 +908,100 @@
 			};
 			name = Release;
 		};
+		1E550EB52567CD4F008A98B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ShaadiLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E550EB62567CD4F008A98B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ShaadiLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E550EB92567CD4F008A98B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShaadiLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShaadiAssignment.app/ShaadiAssignment";
+			};
+			name = Debug;
+		};
+		1E550EBA2567CD4F008A98B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShaadiLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.temp.ShaadiLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShaadiAssignment.app/ShaadiAssignment";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,6 +1037,24 @@
 			buildConfigurations = (
 				1E550E872567CC6C008A98B9 /* Debug */,
 				1E550E882567CC6C008A98B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E550EB42567CD4F008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E550EB52567CD4F008A98B9 /* Debug */,
+				1E550EB62567CD4F008A98B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E550EB82567CD4F008A98B9 /* Build configuration list for PBXNativeTarget "ShaadiLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E550EB92567CD4F008A98B9 /* Debug */,
+				1E550EBA2567CD4F008A98B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
