@@ -32,11 +32,11 @@ final class ListViewController: ShaadiTableViewController, UIViewControllerFetch
     
     func fetch() {
         showLoadingIndicator()
-        User.fetch { [weak self] (users) in
+        User.fetch(completionHandler: { [weak self] (users) in
             guard let `self` = self else { return }
             self.hideLoadingIndicator()
             self.users = users
-        } failure: { [weak self] (error) in
+        }) { [weak self] (error) in
             guard let `self` = self else { return }
             self.hideLoadingIndicator()
             self.showError(errorConfig: error)

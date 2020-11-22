@@ -47,6 +47,7 @@
 		1E60363625691F49004136B1 /* ListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60363525691F49004136B1 /* ListViewModelTest.swift */; };
 		1E60364025692058004136B1 /* ConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60363F25692058004136B1 /* ConstantValues.swift */; };
 		1E60364F25692339004136B1 /* DetailModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E60364E25692339004136B1 /* DetailModelTest.swift */; };
+		1E6A42A8256A8E4D00551507 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6A42A7256A8E4D00551507 /* SwiftUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,7 @@
 		1E60363525691F49004136B1 /* ListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTest.swift; sourceTree = "<group>"; };
 		1E60363F25692058004136B1 /* ConstantValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValues.swift; sourceTree = "<group>"; };
 		1E60364E25692339004136B1 /* DetailModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModelTest.swift; sourceTree = "<group>"; };
+		1E6A42A7256A8E4D00551507 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6A42A8256A8E4D00551507 /* SwiftUI.framework in Frameworks */,
 				1E550EB22567CD4F008A98B9 /* ShaadiLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +212,7 @@
 				1E550E9E2567CD4F008A98B9 /* ShaadiLib */,
 				1E550EAB2567CD4F008A98B9 /* ShaadiLibTests */,
 				1E550E572567CC69008A98B9 /* Products */,
+				1E6A42A6256A8E4D00551507 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -369,6 +373,14 @@
 				1E60364E25692339004136B1 /* DetailModelTest.swift */,
 			);
 			path = "View Model Test";
+			sourceTree = "<group>";
+		};
+		1E6A42A6256A8E4D00551507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E6A42A7256A8E4D00551507 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
