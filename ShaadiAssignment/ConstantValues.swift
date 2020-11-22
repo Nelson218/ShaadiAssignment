@@ -15,7 +15,7 @@ public enum ConstantValue {
     case company
     case address
     
-    var description: String {
+    internal var description: String {
         switch self {
         case .name: return "Name: "
         case .userName: return "UserName: "

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E35FBE6256A83CB0098643E /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E35FBE5256A83CB0098643E /* UserTest.swift */; };
 		1E3F43A62568DC0000645A03 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F43A52568DC0000645A03 /* ListViewModel.swift */; };
 		1E3F43B72568DD2400645A03 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F43B62568DD2400645A03 /* ListTableViewCell.swift */; };
 		1E3F43C12568E4AA00645A03 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3F43C02568E4AA00645A03 /* ListTableViewCell.xib */; };
@@ -94,6 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E35FBE5256A83CB0098643E /* UserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTest.swift; sourceTree = "<group>"; };
 		1E3F43A52568DC0000645A03 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		1E3F43B62568DD2400645A03 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		1E3F43C02568E4AA00645A03 /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
@@ -174,6 +176,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E35FBE4256A83BB0098643E /* Model Test */ = {
+			isa = PBXGroup;
+			children = (
+				1E35FBE5256A83CB0098643E /* UserTest.swift */,
+			);
+			path = "Model Test";
+			sourceTree = "<group>";
+		};
 		1E3F43A42568DBF400645A03 /* View Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 		1E550EAB2567CD4F008A98B9 /* ShaadiLibTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E35FBE4256A83BB0098643E /* Model Test */,
 				1E550EAC2567CD4F008A98B9 /* ShaadiLibTests.swift */,
 				1E550EAE2567CD4F008A98B9 /* Info.plist */,
 			);
@@ -585,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E35FBE6256A83CB0098643E /* UserTest.swift in Sources */,
 				1E550EAD2567CD4F008A98B9 /* ShaadiLibTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -42,6 +42,6 @@ extension User {
         phone = "12345"
         website = "shaddi.com"
         company = Company(name: "Digitas")
-        address = Address(street: "Nallasopara", suite: "Building 404", city: "Mumbau", zipcode: "401203")
+        address = Address(street: "Nallasopara", suite: "Building 404", city: "Mumbai", zipcode: "401203")
     }
 }
