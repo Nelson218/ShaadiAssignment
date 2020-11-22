@@ -1,5 +1,5 @@
 # Shaadi Assignment
-
+### `Caution: The project is compatible only with Xcode 12 and Swift 5.0. If your runninng older version please change the branch to Xcode 11 compatible`
 Architecture:
     Coordinator with MVVM
 
